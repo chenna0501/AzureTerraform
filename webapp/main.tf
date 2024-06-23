@@ -11,3 +11,8 @@ resource "azurerm_resource_group" "unrgp" {
   name     = "unisure-rgp"
   location = "North Europe"
 }
+resource "azurerm_resource_group" "dfsrgp" {
+  name     = "dfs-rgp"
+  location = "North Europe"
+}
+
